@@ -16,12 +16,13 @@ dist-ssr/
 backend/main
 **/main
 
-# Environment files
+# Environment files 
 .env
 .env.*
-!.env.example
 **/.env
 **/.env.*
+
+
 
 # IDEs and Editors
 .vscode/
