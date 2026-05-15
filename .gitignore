@@ -16,7 +16,7 @@ dist-ssr/
 backend/main
 **/main
 
-# Environment files (Sangat Penting: JANGAN PUSH FILE INI)
+# Environment files
 .env
 .env.*
 !.env.example
