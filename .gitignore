@@ -1,0 +1,42 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+dist-ssr/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go
+backend/main
+**/main
+
+# Environment files (Sangat Penting: JANGAN PUSH FILE INI)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+**/.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+.docker/
