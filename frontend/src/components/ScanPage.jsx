@@ -68,7 +68,7 @@ function ScanPage() {
     const initialMessages = [{ role: 'user', type: 'image', content: base64Image }];
     setMessages(initialMessages);
 
-    const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
+    const apiUrl = import.meta.env.VITE_API_URL || 'https://wastewise-ai-7205603676.asia-southeast2.run.app/api';
     try {
       const response = await fetch(`${apiUrl}/scan`, {
         method: 'POST',
@@ -115,7 +115,7 @@ function ScanPage() {
 
     const userLocation = await getGeoLocation();
 
-    const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
+    const apiUrl = import.meta.env.VITE_API_URL || 'https://wastewise-ai-7205603676.asia-southeast2.run.app/api';
     try {
       const response = await fetch(`${apiUrl}/chat`, {
         method: 'POST',
