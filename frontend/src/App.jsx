@@ -36,7 +36,7 @@ function App() {
             transition={{ duration: 0.3 }}
             className="min-h-screen"
           >
-            <Header onOpenScan={() => setCurrentPage('scan')} />
+            {/* <Header onOpenScan={() => setCurrentPage('scan')} /> */}
             <main id="top" className="grid-mesh">
               <HeroSection onOpenScan={() => setCurrentPage('scan')} />
               <ProblemSection />

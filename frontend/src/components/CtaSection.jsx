@@ -28,7 +28,7 @@ function CtaSection() {
       <div className="mx-auto max-w-[1400px] px-4 py-24 md:px-8 lg:px-12 lg:py-32">
 
         <motion.div
-          className="relative overflow-hidden rounded-[3rem] bg-[#082a13] p-10 text-center md:p-16 lg:p-24 shadow-[0_30px_60px_-15px_rgba(13,99,27,0.3)]"
+          className="relative overflow-hidden rounded-[3rem] bg-[#082a13] p-10 text-left md:p-16 lg:p-24 shadow-[0_30px_60px_-15px_rgba(13,99,27,0.3)]"
           style={{ scale: cardScale, y: cardY, opacity: cardOp }}
         >
           {/* Parallax glows */}
@@ -38,8 +38,8 @@ function CtaSection() {
             <div className="absolute top-[20%] right-[20%] w-[30%] h-[30%] rounded-full bg-emerald-500/30 blur-[90px]" />
           </div>
 
-          {/* Content */}
-          <div className="relative z-10 flex flex-col items-center">
+          {/* Content Left-Aligned */}
+          <div className="relative z-10 flex flex-col items-start text-left">
             <motion.div
               className="mb-8 inline-flex items-center gap-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-md px-5 py-2 text-[10px] font-bold uppercase tracking-widest text-[#def8cc] shadow-sm"
               initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }}
@@ -53,7 +53,7 @@ function CtaSection() {
             </motion.div>
 
             <motion.h2
-              className="mx-auto max-w-4xl text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.1] tracking-tight mb-6"
+              className="max-w-4xl text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.1] tracking-tight mb-6 font-fustat"
               initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.25 }} viewport={{ once: true }}
             >
@@ -62,7 +62,7 @@ function CtaSection() {
             </motion.h2>
 
             <motion.p
-              className="mx-auto max-w-2xl text-sm leading-relaxed text-white/70 md:text-lg font-medium mb-12"
+              className="max-w-2xl text-sm leading-relaxed text-white/70 md:text-lg font-medium mb-12"
               initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.33 }} viewport={{ once: true }}
             >
@@ -70,7 +70,7 @@ function CtaSection() {
             </motion.p>
 
             <motion.div
-              className="flex flex-col gap-4 sm:flex-row sm:justify-center w-full sm:w-auto"
+              className="flex flex-col gap-4 sm:flex-row sm:justify-start w-full sm:w-auto"
               initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.42 }} viewport={{ once: true }}
             >

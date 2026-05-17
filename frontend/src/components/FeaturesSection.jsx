@@ -52,8 +52,8 @@ function FeaturesSection() {
                   {/* Indicator */}
                   <div
                     className={`w-[3px] self-stretch rounded-full transition-all duration-300 ${isActive
-                        ? "bg-emerald-500"
-                        : "bg-slate-200 group-hover:bg-slate-300"
+                      ? "bg-emerald-500"
+                      : "bg-slate-200 group-hover:bg-slate-300"
                       }`}
                   />
 
